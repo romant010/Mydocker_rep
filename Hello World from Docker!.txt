@@ -1,0 +1,9 @@
+Ubuntu 16.04
+
+After update and install apache2 
+get text Hello World from Docker!
+ip docker 192.168.99.100:7777
+1 step: Create Dockerfile
+2 step: RUN docker build -t myimage:v1 .
+3 step: docker run -d -p 7777:80 myimage:v1
+4 Step: open chrome and 192.168.99.100:7777
